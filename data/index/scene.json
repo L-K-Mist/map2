@@ -1,0 +1,81 @@
+{
+  "type": "scene",
+  "layers": [
+    {
+      "type": "layer",
+      "properties": {
+        "objType": "Extruded",
+        "queryable": 1,
+        "type": "polygon",
+        "visible": true,
+        "name": "circle"
+      },
+      "data": {
+        "blocks": [
+          {
+            "url": "./data/index/L0_GEOM0.json"
+          }
+        ],
+        "materials": []
+      },
+      "id": 0
+    },
+    {
+      "type": "layer",
+      "properties": {
+        "queryable": 1,
+        "type": "dem",
+        "shading": true,
+        "visible": true,
+        "name": "s30_e030_1arc_v3 (1)"
+      },
+      "data": [
+        {
+          "type": "block",
+          "material": {
+            "type": 0,
+            "ds": 1,
+            "image": {
+              "url": "./data/index/L1_IMG0.png"
+            }
+          },
+          "layer": 2,
+          "grid": {
+            "width": 276,
+            "url": "./data/index/L1_DEM0.bin",
+            "height": 146
+          },
+          "sides": true,
+          "width": 100.0,
+          "block": 0,
+          "translate": [
+            0.0,
+            0.0,
+            0
+          ],
+          "height": 52.77777777777778
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "properties": {
+    "crs": "EPSG:3857",
+    "width": 100.0,
+    "wgs84Center": {
+      "lon": 30.79199613422319,
+      "lat": -29.868442335710824
+    },
+    "zExaggeration": 1.3,
+    "baseExtent": [
+      3427551.734044972,
+      -3486754.8033364182,
+      3427946.9262953764,
+      -3486546.2296487046
+    ],
+    "rotation": 110.0,
+    "zShift": -220.0,
+    "height": 52.77777777777778,
+    "proj": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"
+  }
+}
